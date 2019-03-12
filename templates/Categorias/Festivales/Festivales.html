@@ -1,11 +1,17 @@
-
+{% load static %}{% load staticfiles %}{% load i18n %}
 <html lang="ES">
     {% block jk %}
                     <head>
-                            <title>Criollas</title>
+                                <link rel="stylesheet" href ="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+                                <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+                                <link rel="stylesheet" href="{% static 'mievento/turismo/turismo.css' %}">
+                            <title>Festivales</title>
                     </head>
                     <body>
-                            <table class="steelBlueCols">
+                            <br/>
+                            <p><a href="/" >Inicio Salimos.com</a> </p>
+                        <div class="datagrid">
+                            <table>
                                 <thead>
                                     <tr>
                                         <th>Nombre</th>
@@ -19,7 +25,7 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                        {% for Evento in Criollas %}
+                                        {% for Evento in Festivales %}
                                         <tr>
                                             <td>{{ Evento.1 }}</td>
                                             <td>{{ Evento.3 }}</td>
@@ -33,6 +39,7 @@
                                     {% endfor %}
                                 </tbody>
                             </table>
+                            <p><a href="/#marco2" >Volver</a> </p>
                     </body>
     {% endblock %}
     </html>
