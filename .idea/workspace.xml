@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09096bef-a191-4512-b4b0-ec59ac133311" name="Default Changelist" comment="Se agego Montevideo para ver los eventos y lugares del departamento">
-      <change afterPath="$PROJECT_DIR$/templates/Departamentos/Montevideo_eventos.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Departamentos/Montevideo_inicio.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Departamentos/Montevideo_lugares.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="09096bef-a191-4512-b4b0-ec59ac133311" name="Default Changelist" comment="Se agrego volver en Mon">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/iniciosalimos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/iniciosalimos/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/salimossss/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/salimossss/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/inicio/Inicio.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/inicio/Inicio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Departamentos/Montevideo_eventos.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Departamentos/Montevideo_eventos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Departamentos/Montevideo_lugares.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Departamentos/Montevideo_lugares.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iniciosalimos/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="145" column="65" selection-start-line="145" selection-start-column="65" selection-end-line="145" selection-end-column="65" />
+            <state relative-caret-position="132">
+              <caret line="135" column="60" lean-forward="true" selection-start-line="135" selection-start-column="60" selection-end-line="135" selection-end-column="60" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -73,20 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/Departamentos/Montevideo_lugares.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/Mievento/LugaresTuri/turismo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="31" column="7" selection-end-line="31" selection-end-column="7" />
+            <state relative-caret-position="393">
+              <caret line="40" column="28" lean-forward="true" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -120,7 +105,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/inicio/Inicio.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
+            <state relative-caret-position="324">
               <caret line="114" column="59" selection-start-line="114" selection-start-column="59" selection-end-line="114" selection-end-column="59" />
             </state>
           </provider>
@@ -130,7 +115,7 @@
         <entry file="file://$PROJECT_DIR$/templates/Departamentos/Montevideo_inicio.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="298">
-              <caret line="77" column="32" lean-forward="true" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="50" />
+              <caret line="80" column="43" lean-forward="true" selection-start-line="78" selection-start-column="12" selection-end-line="80" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -144,11 +129,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/Departamentos/Montevideo_eventos.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+            <state relative-caret-position="312">
+              <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -190,10 +175,11 @@
         <option value="$PROJECT_DIR$/templates/Mievento/EspctacAirlibre/espectaculos.html" />
         <option value="$PROJECT_DIR$/templates/Departamentos/Montevideo.html" />
         <option value="$PROJECT_DIR$/templates/inicio/Inicio.html" />
-        <option value="$PROJECT_DIR$/templates/Departamentos/Montevideo_inicio.html" />
         <option value="$PROJECT_DIR$/salimossss/urls.py" />
+        <option value="$PROJECT_DIR$/templates/Departamentos/Montevideo_inicio.html" />
         <option value="$PROJECT_DIR$/iniciosalimos/views.py" />
         <option value="$PROJECT_DIR$/templates/Departamentos/Montevideo_lugares.html" />
+        <option value="$PROJECT_DIR$/templates/Departamentos/Montevideo_eventos.html" />
       </list>
     </option>
   </component>
@@ -325,15 +311,31 @@
       <workItem from="1552013664187" duration="8610000" />
       <workItem from="1552066723158" duration="13629000" />
       <workItem from="1552084662126" duration="19426000" />
-      <workItem from="1552338024270" duration="4712000" />
+      <workItem from="1552338024270" duration="6917000" />
     </task>
+    <task id="LOCAL-00001" summary="Se agego Montevideo para ver los eventos y lugares del departamento">
+      <created>1552342763919</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552342763919</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Se agrego volver en Montevideo">
+      <created>1552343232009</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552343232009</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53501000" />
+    <option name="totallyTimeSpent" value="55706000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27892032" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -368,7 +370,9 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/marzoocho" />
     </ignored-roots>
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Se agego Montevideo para ver los eventos y lugares del departamento" />
+    <MESSAGE value="Se agrego volver en Montevideo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agrego volver en Montevideo" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/templates/Cine.html" />
@@ -490,13 +494,6 @@
     <entry file="file://$PROJECT_DIR$/iniciosalimos/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/iniciosalimos/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3015">
-          <caret line="4" column="70" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/mievento/enfamilia/enfamilia.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -504,31 +501,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Mievento/LugaresTuri/turismo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="31" column="7" selection-end-line="31" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/inicio/Inicio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
+        <state relative-caret-position="324">
           <caret line="114" column="59" selection-start-line="114" selection-start-column="59" selection-end-line="114" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Mievento/EspctacAirlibre/espectaculos.html">
+    <entry file="file://$PROJECT_DIR$/templates/Mievento/LugaresTuri/turismo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Departamentos/Montevideo_eventos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        <state relative-caret-position="414">
+          <caret line="31" column="7" selection-end-line="31" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -542,10 +525,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/iniciosalimos/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3015">
+          <caret line="4" column="70" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/iniciosalimos/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="145" column="65" selection-start-line="145" selection-start-column="65" selection-end-line="145" selection-end-column="65" />
+        <state relative-caret-position="132">
+          <caret line="135" column="60" lean-forward="true" selection-start-line="135" selection-start-column="60" selection-end-line="135" selection-end-column="60" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
@@ -555,14 +545,28 @@
     <entry file="file://$PROJECT_DIR$/templates/Departamentos/Montevideo_inicio.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
-          <caret line="77" column="32" lean-forward="true" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="50" />
+          <caret line="80" column="43" lean-forward="true" selection-start-line="78" selection-start-column="12" selection-end-line="80" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Mievento/EspctacAirlibre/espectaculos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/Departamentos/Montevideo_lugares.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+        <state relative-caret-position="393">
+          <caret line="40" column="28" lean-forward="true" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Departamentos/Montevideo_eventos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
         </state>
       </provider>
     </entry>

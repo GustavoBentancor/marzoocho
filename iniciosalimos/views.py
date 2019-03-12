@@ -133,7 +133,7 @@ def montevideo_eventos_list(request):
     db = sqlite3.connect(database='salimos.db')
     cursor = db.cursor()
     #cursor.execute("Select * from Eventos")
-    Montevideo = cursor.execute("select eventos.nombre nombre , eventos.detalle detalle,eventos.ciudad ciudad from Eventos where eventos.IdDepartamento=10")
+    Montevideo = cursor.execute("select * from eventos where eventos.IdDepartamento=10")
     db.commit()
     return render_to_response('Departamentos/Montevideo_eventos.html', {'Montevideo': Montevideo})
 
