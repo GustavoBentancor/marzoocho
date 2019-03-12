@@ -1,0 +1,45 @@
+{% load static %}{% load staticfiles %}{% load i18n %}
+<html lang="Es">
+			<head>
+                     <link rel="stylesheet" href ="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+                     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+                     <link rel="stylesheet" href="{% static 'mievento/turismo/turismo.css' %}">
+				<title>Rocha</title>
+			</head>
+	<body>
+		    <br/>
+            <p><a href="/" >Inicio Salimos.com</a> </p>
+        <div class="datagrid">
+			<table>
+				<thead>
+
+					<tr>
+						<th>Nombre Evento</th>
+						<th>Información Adicional</th>
+                        <th>Dirección</th>
+                        <th>Fecha Inicio</th>
+						<th>Fecha Final</th>
+                        <th>Contacto</th>
+                        <th>Ciudad</th>
+                        <!--<th>Barrio</th>-->
+					</tr>
+				</thead>
+				<tbody>
+                {% for item in Montevideo %}
+					<tr>
+						<td>{{item.1 }}</td>
+						<td>{{item.3  }}</td>
+                        <td>{{item.14  }}</td>
+                        <td>{{item.4  }}</td>
+                        <td>{{item.5  }}</td>
+                        <td>{{item.10  }}</td>
+                        <td>{{item.11 }}</td>
+                    </tr>
+                {% endfor %}
+				</tbody>
+			</table>
+		    </div>
+<br/>
+            <p><a href="/" >Inicio Salimos.com</a> </p>
+	</body>
+</html>
