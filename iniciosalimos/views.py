@@ -34,7 +34,7 @@ def crio_list(request):
 def gastro_list(request):
     db = sqlite3.connect(database='salimos.db')
     cursor = db.cursor()
-    cursor.execute("Select * from Lugares where IdCategoria in (8,2)")
+    cursor.execute("Select * from Lugares where IdCategoria=2")
     Gastronomia = cursor.fetchall()
     db.commit()
     return render_to_response('Gastronomia/Gastronomia.html', {'Gastronomia': Gastronomia})
@@ -70,7 +70,7 @@ def artdep_list(request):
     Artdep = cursor.fetchall()
     db.commit()
     return render_to_response('Artdep/Artdep.html', {'Artdep': Artdep})
-
+    
 def enfmilia_list(request):
     db = sqlite3.connect(database='salimos.db')
     cursor = db.cursor()
@@ -121,26 +121,7 @@ def turismo_list(request):
 def airlib_list(request):
     db = sqlite3.connect(database='salimos.db')
     cursor = db.cursor()
-    #cursor.execute("Select * from Eventos")
+    cursor.execute("Select * from Eventos")
     Evento = cursor.execute("select Eventos.Nombre ,Eventos.Detalle, Eventos.Ciudad from Eventos")
     db.commit()
     return render_to_response('Mievento/LugaresTuri/turismo.html', {'Evento': Evento})
-
-def montevideo_inicio_list(request):
-    return render_to_response('Departamentos/Montevideo_inicio.html')
-
-def montevideo_eventos_list(request):
-    db = sqlite3.connect(database='salimos.db')
-    cursor = db.cursor()
-    #cursor.execute("Select * from Eventos")
-    Montevideo = cursor.execute("select * from eventos where eventos.IdDepartamento=10")
-    db.commit()
-    return render_to_response('Departamentos/Montevideo_eventos.html', {'Montevideo': Montevideo})
-
-def montevideo_lugares_list(request):
-    db = sqlite3.connect(database='salimos.db')
-    cursor = db.cursor()
-    #cursor.execute("Select * from Eventos")
-    Montevideo = cursor.execute("select * from lugares where iddepartamento=10")
-    db.commit()
-    return render_to_response('Departamentos/Montevideo_lugares.html', {'Montevideo': Montevideo})
