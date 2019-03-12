@@ -34,7 +34,7 @@ def crio_list(request):
 def gastro_list(request):
     db = sqlite3.connect(database='salimos.db')
     cursor = db.cursor()
-    cursor.execute("Select * from Lugares where IdCategoria=2")
+    cursor.execute("Select * from Lugares where IdCategoria in (8,2)")
     Gastronomia = cursor.fetchall()
     db.commit()
     return render_to_response('Gastronomia/Gastronomia.html', {'Gastronomia': Gastronomia})
