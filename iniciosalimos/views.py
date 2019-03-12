@@ -125,3 +125,22 @@ def airlib_list(request):
     Evento = cursor.execute("select Eventos.Nombre ,Eventos.Detalle, Eventos.Ciudad from Eventos")
     db.commit()
     return render_to_response('Mievento/LugaresTuri/turismo.html', {'Evento': Evento})
+
+def montevideo_inicio_list(request):
+    return render_to_response('Departamentos/Montevideo_inicio.html')
+
+def montevideo_eventos_list(request):
+    db = sqlite3.connect(database='salimos.db')
+    cursor = db.cursor()
+    #cursor.execute("Select * from Eventos")
+    Montevideo = cursor.execute("select * from eventos where eventos.IdDepartamento=10")
+    db.commit()
+    return render_to_response('Departamentos/Montevideo_eventos.html', {'Montevideo': Montevideo})
+
+def montevideo_lugares_list(request):
+    db = sqlite3.connect(database='salimos.db')
+    cursor = db.cursor()
+    #cursor.execute("Select * from Eventos")
+    Montevideo = cursor.execute("select * from lugares where iddepartamento=10")
+    db.commit()
+    return render_to_response('Departamentos/Montevideo_lugares.html', {'Montevideo': Montevideo})
