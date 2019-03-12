@@ -1,0 +1,65 @@
+{% load static %}{% load staticfiles %}{% load i18n %}
+<html lang="Es">
+			<head>
+                     <link rel="stylesheet" href ="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+                     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+                     <link rel="stylesheet" href="{% static 'mievento/turismo/turismo.css' %}">
+				<title>Detalle_eventos</title>
+			</head>
+	<body>
+		    <br/>
+            <p><a href="/" >Inicio Salimos.com</a> </p>
+        <div class="datagrid">
+			<table>
+
+                <tbody>
+                    <tr>
+						<td>Nombre Evento</td>
+                        <td>{{item.1 }} </td>
+                    </tr>
+
+					<tr>
+						<td>Información Adicional</td>
+                    <td>{{item.3  }}</td>
+					</tr>
+
+                    <tr>
+                        <td>Dirección</td>
+                    <td>{{item.14  }}</td>
+                     </tr>
+
+					<tr>
+                        <td>Fecha Inicio</td>
+                    <td>{{item.4  }}</td>
+					</tr>
+                    <tr>
+                        <td>Fecha Final</td>
+                         <td>{{item.5  }}</td>
+					</tr>
+
+                    <tr>
+                        <td>Contacto</td>
+                    <td>{{item.10  }}</td>
+					</tr>
+
+                    <tr>
+                        <td>Ciudad</td>
+                    <td>{{item.11 }}</td>
+                    </tr>
+
+                    <tr>
+                        <td>Imagen</td>
+                        <td>
+                            <img src="data:image/png;base64,{{item.12 }}" />
+
+                        </td>
+
+                    </tr>
+
+                </tbody>
+			</table>
+		    </div>
+            <br/>
+            <p><a href="/" >Inicio Salimos.com</a> </p>
+	</body>
+</html>

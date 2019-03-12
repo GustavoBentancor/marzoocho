@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09096bef-a191-4512-b4b0-ec59ac133311" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/Departamentos/Detalle_eventos.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/Departamentos/Montevideo_inicio.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Departamentos/Montevideo_inicio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/Departamentos/Rocha_inicio.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Departamentos/Rocha_inicio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iniciosalimos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/iniciosalimos/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salimossss/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/salimossss/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Departamentos/Montevideo_eventos.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Departamentos/Montevideo_eventos.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,8 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iniciosalimos/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="160" column="72" selection-start-line="160" selection-start-column="72" selection-end-line="160" selection-end-column="72" />
+            <state relative-caret-position="319">
+              <caret line="170" column="35" selection-start-line="170" selection-start-column="35" selection-end-line="170" selection-end-column="35" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -66,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/Departamentos/Montevideo_inicio.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ProtLocal/venv/Lib/site-packages/django/core/handlers/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1360">
-              <caret line="80" column="17" lean-forward="true" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="17" />
+            <state relative-caret-position="80">
+              <caret line="123" selection-start-line="123" selection-end-line="123" />
             </state>
           </provider>
         </entry>
@@ -78,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/salimossss/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+            <state relative-caret-position="136">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="e#634#666#0" expanded="true" />
               </folding>
@@ -88,10 +90,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/Departamentos/Montevideo_eventos.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="29" column="75" selection-start-line="29" selection-start-column="75" selection-end-line="29" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/Departamentos/Detalle_eventos.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="51" column="28" lean-forward="true" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+              <folding>
+                <element signature="n#src#0;n#img#0;n#td#1;n#tr#7;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/Departamentos/Rocha_inicio.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="70" selection-end-column="18" />
+            <state relative-caret-position="204">
+              <caret line="78" column="35" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -159,15 +182,16 @@
         <option value="$PROJECT_DIR$/static/css/mievento/espctaculos/espec.css" />
         <option value="$PROJECT_DIR$/templates/Mievento/EspctacAirlibre/espectaculos.html" />
         <option value="$PROJECT_DIR$/templates/Departamentos/Montevideo.html" />
-        <option value="$PROJECT_DIR$/templates/Departamentos/Montevideo_eventos.html" />
         <option value="$PROJECT_DIR$/templates/Departamentos/Montevideo_lugares.html" />
         <option value="$PROJECT_DIR$/templates/inicio/Inicio.html" />
-        <option value="$PROJECT_DIR$/salimossss/urls.py" />
-        <option value="$PROJECT_DIR$/iniciosalimos/views.py" />
         <option value="$PROJECT_DIR$/templates/Departamentos/Rocha_eventos.html" />
         <option value="$PROJECT_DIR$/templates/Departamentos/Rocha_lugares.html" />
         <option value="$PROJECT_DIR$/templates/Departamentos/Rocha_inicio.html" />
         <option value="$PROJECT_DIR$/templates/Departamentos/Montevideo_inicio.html" />
+        <option value="$PROJECT_DIR$/salimossss/urls.py" />
+        <option value="$PROJECT_DIR$/templates/Departamentos/Montevideo_eventos.html" />
+        <option value="$PROJECT_DIR$/iniciosalimos/views.py" />
+        <option value="$PROJECT_DIR$/templates/Departamentos/Detalle_eventos.html" />
       </list>
     </option>
   </component>
@@ -213,6 +237,12 @@
               <item name="marzoocho" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="Departamentos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="marzoocho" type="b2602c69:ProjectViewProjectNode" />
+              <item name="marzoocho" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="Festivales" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="marzoocho" type="b2602c69:ProjectViewProjectNode" />
@@ -300,7 +330,7 @@
       <workItem from="1552066723158" duration="13629000" />
       <workItem from="1552084662126" duration="19426000" />
       <workItem from="1552338024270" duration="17878000" />
-      <workItem from="1552406531867" duration="1102000" />
+      <workItem from="1552406531867" duration="9793000" />
     </task>
     <task id="LOCAL-00001" summary="Se agego Montevideo para ver los eventos y lugares del departamento">
       <created>1552342763919</created>
@@ -344,11 +374,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552406683228</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Se agrega rocha- Se deja misma pagina con botones nuevos en la vista">
+      <created>1552410940152</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1552410940152</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67769000" />
+    <option name="totallyTimeSpent" value="76460000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -368,7 +405,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50192803" side_tool="true" visible="true" weight="0.32839838" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50192803" side_tool="true" weight="0.32839838" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.4989796" weight="0.95090014" />
       <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -392,7 +429,44 @@
     <MESSAGE value="Se agrego volver en Eventos y Lugares ej. Montevideo" />
     <MESSAGE value="Idcategoria 2,8" />
     <MESSAGE value="Se agrega rocha" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se agrega rocha" />
+    <MESSAGE value="Se agrega rocha- Se deja misma pagina con botones nuevos en la vista" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;iniciosalimos/views.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;iniciosalimos/views.py" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/iniciosalimos/views.py</url>
+          <line>166</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>Detalle_eventos</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>&quot;select * from eventos where idevento=&quot;+id_detalle_evento</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>id_detalle_evento</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>request</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/templates/Cine.html" />
@@ -549,23 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Departamentos/Montevideo_eventos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/salimossss/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
-          <folding>
-            <element signature="e#634#666#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/Departamentos/Rocha_eventos.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -580,16 +637,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iniciosalimos/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="160" column="72" selection-start-line="160" selection-start-column="72" selection-end-line="160" selection-end-column="72" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/inicio/Inicio.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -597,17 +644,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Departamentos/Rocha_inicio.html">
+    <entry file="file://$PROJECT_DIR$/templates/Departamentos/Montevideo_inicio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="70" selection-end-column="18" />
+        <state relative-caret-position="187">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Departamentos/Montevideo_inicio.html">
+    <entry file="file://$PROJECT_DIR$/templates/Festivales/Festivales.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="80" column="17" lean-forward="true" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="17" />
+        <state relative-caret-position="-130" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Departamentos/Rocha_inicio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="78" column="35" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Departamentos/Montevideo_eventos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="29" column="75" selection-start-line="29" selection-start-column="75" selection-end-line="29" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ProtLocal/venv/Lib/site-packages/django/core/handlers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/salimossss/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#634#666#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iniciosalimos/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="170" column="35" selection-start-line="170" selection-start-column="35" selection-end-line="170" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Departamentos/Detalle_eventos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="51" column="28" lean-forward="true" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+          <folding>
+            <element signature="n#src#0;n#img#0;n#td#1;n#tr#7;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

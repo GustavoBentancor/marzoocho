@@ -161,3 +161,11 @@ def rocha_lugares_list(request):
     Rocha = cursor.execute("select * from lugares where iddepartamento=14")
     db.commit()
     return render_to_response('Departamentos/Rocha_lugares.html', {'Rocha': Rocha})
+
+def detalle_eventos_list(request):
+    db = sqlite3.connect(database='salimos.db')
+    cursor = db.cursor()
+    id_detalle_evento= request.GET.get('id_evento',0)
+    Detalle_eventos = cursor.execute("select * from eventos where idevento="+id_detalle_evento)
+    db.commit()
+    return render_to_response('Departamentos/Detalle_eventos.html', {'item': Detalle_eventos.fetchone()})
