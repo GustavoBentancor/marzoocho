@@ -1,30 +1,44 @@
 #contenedor{
-        background-color:#F4ABF2;
-        border:2px solid #FF0000;
-}
-#cabecera{
-        background-color:#E5BC7A;
-        height:20%;
-}
+        background-image:     linear-gradient(green, violet);
+        border:5px solid #5BA546;
+  }
+
 #menu{
-        height:10%;
         background-color:#C8CACC;
+        border:5px solid #5BA546;
 }
+
+#submenu{
+        height:20%;
+        background-color:none;
+        border:5px solid #5BA546;
+}
+
 #izquierda{
         height:50%;
-        background-color:#BDD2EF;
+        background-color:#DAF7E2;
         float:left;
-        width:50%;
+        width:47%;
+        border:5px solid #5BA546;
 }
+
 #derecha{
         height:50%;
         background-color:#DAF7E2;
         float:right;
-        width:50%;
+        width:46%;
+        border:7px solid #5BA546;
 }
+
 #pie{
-        height:20%;
-        background-color:#D3D1C1;
-        clear:both;
+        background-color:#DAF7E2;
+        border:5px solid #5BA546;
+        
 }
+    
+#pie2{
+        background-color:#DAF7E2;
+        border:5px solid #5BA546;
+}
+
 
