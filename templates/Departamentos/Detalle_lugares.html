@@ -1,6 +1,6 @@
 {% load static %}{% load staticfiles %}{% load i18n %}
 <html lang="Es">
-			<head>
+			<!--<head>
                      <link rel="stylesheet" href ="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
                      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
                      <link rel="stylesheet" href="{% static 'mievento/turismo/turismo.css' %}">
@@ -81,5 +81,51 @@
 		    </div>
             <br/>
             <p><a href="/" >Inicio Salimos.com</a> </p>
-	</body>
+	</body>-->
+            <head>
+		<title>Maquetacion con CSS y Divs</title>
+		<link rel="stylesheet" href="static/css/maquetacion.css" type="text/css"/>
+	</head>
+	<body>
+
+		<div id ="contenedor">
+          <div style="text-align-last: center">
+          <h2>{{item.2 }}</h2><br><br>
+          </div>
+        </div><br>
+
+	    <div id ="menu">
+              <div style="text-align-last: center">
+              <h2>Horario {{item.7  }} <br/> Contacto {{item.8  }} <br/> {{item.9  }}</h2>
+              </div>
+        </div>
+
+
+        <div id ="submenu">
+           .  <div style="text-align-last: center">
+              <h2>{{item.6  }}   {{item.5  }}   {{item.4  }}</h2>
+              </div>
+        </div>
+
+		<div id ="izquierda">
+              <div style="text-align-last: center">
+              <h2>" imagen"</h2>
+              </div>
+        </div>
+
+
+		<div id ="derecha">
+              <div style="text-align-last: center">
+              <h2>" ubicacion google maps"</h2>
+              </div>
+        </div>
+
+        <div id ="pie">
+              <div style="text-align-last: center">
+              <h2>Tarjetas: {{item.9}}  <br/> Platos{{item.11}}   <br/> Gasto promedio:{{item.12}}  <br/> Servicios:{{item.13}}   <br/>  <a href={{item.10 }} target="blank">{{item.10 }}</h2><br>
+              </div>
+        </div>
+
+            <br/>
+            <p><a href="/" >Inicio Salimos.com</a> </p>
 </html>
