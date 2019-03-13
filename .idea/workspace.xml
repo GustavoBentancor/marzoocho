@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09096bef-a191-4512-b4b0-ec59ac133311" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/Departamentos/Detalle_lugares.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iniciosalimos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/iniciosalimos/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/salimossss/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/salimossss/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/Departamentos/Montevideo_lugares.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Departamentos/Montevideo_lugares.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/Departamentos/Rocha_eventos.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Departamentos/Rocha_eventos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/Departamentos/Rocha_lugares.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Departamentos/Rocha_lugares.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salimos.db" beforeDir="false" afterPath="$PROJECT_DIR$/salimos.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Departamentos/Detalle_eventos.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Departamentos/Detalle_eventos.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,30 +23,7 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="salimos" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="salimos" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="salimos" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="salimos" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-        <item name="Categorias: table" type="3d80ac25:SqliteImplModel$Table" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
@@ -61,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iniciosalimos/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="175" column="47" selection-start-line="175" selection-start-column="47" selection-end-line="175" selection-end-column="47" />
+            <state relative-caret-position="-1990">
+              <caret line="39" column="47" lean-forward="true" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -73,20 +46,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/Departamentos/Detalle_lugares.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="66" column="33" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
+            <state relative-caret-position="291">
+              <caret line="76" column="25" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
               <folding>
                 <element signature="n#src#0;n#img#0;n#td#1;n#tr#7;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ProtLocal/venv/Lib/site-packages/django/core/handlers/base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="123" selection-start-line="123" selection-end-line="123" />
             </state>
           </provider>
         </entry>
@@ -95,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/salimossss/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="319">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <element signature="e#634#666#0" expanded="true" />
               </folding>
@@ -103,20 +67,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/Departamentos/Rocha_lugares.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/Categorias/Gastronomia/Gastronomia.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="28" column="100" selection-start-line="28" selection-start-column="100" selection-end-line="28" selection-end-column="100" />
-            </state>
+            <state relative-caret-position="-349" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/Departamentos/Montevideo_eventos.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="29" column="106" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="106" />
+            <state relative-caret-position="318">
+              <caret line="30" column="45" lean-forward="true" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -124,38 +86,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/Departamentos/Montevideo_lugares.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="29" column="100" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="100" />
+            <state relative-caret-position="275">
+              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/Departamentos/Detalle_eventos.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="64" selection-end-column="7" />
-              <folding>
-                <element signature="n#src#0;n#img#0;n#td#1;n#tr#7;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="414">
+              <caret line="82" column="54" selection-start-line="82" selection-start-column="54" selection-end-line="82" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/Departamentos/Rocha_inicio.html">
+        <entry file="file://$PROJECT_DIR$/templates/Categorias/Gastronomia/pruebawebresto.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="78" column="35" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/Departamentos/Rocha_eventos.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+            <state relative-caret-position="380">
+              <caret line="48" column="14" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="48" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -200,14 +150,14 @@
         <option value="$PROJECT_DIR$/templates/Departamentos/Rocha_inicio.html" />
         <option value="$PROJECT_DIR$/templates/Departamentos/Montevideo_inicio.html" />
         <option value="$PROJECT_DIR$/templates/Departamentos/Montevideo_eventos.html" />
-        <option value="$PROJECT_DIR$/templates/Departamentos/Detalle_eventos.html" />
         <option value="$PROJECT_DIR$/templates/Departamentos/Rocha_eventos.html" />
         <option value="$PROJECT_DIR$/templates/Departamentos/Detalle_ugares.html" />
         <option value="$PROJECT_DIR$/salimossss/urls.py" />
-        <option value="$PROJECT_DIR$/templates/Departamentos/Detalle_lugares.html" />
         <option value="$PROJECT_DIR$/iniciosalimos/views.py" />
         <option value="$PROJECT_DIR$/templates/Departamentos/Montevideo_lugares.html" />
         <option value="$PROJECT_DIR$/templates/Departamentos/Rocha_lugares.html" />
+        <option value="$PROJECT_DIR$/templates/Departamentos/Detalle_lugares.html" />
+        <option value="$PROJECT_DIR$/templates/Departamentos/Detalle_eventos.html" />
       </list>
     </option>
   </component>
@@ -252,13 +202,27 @@
               <item name="marzoocho" type="b2602c69:ProjectViewProjectNode" />
               <item name="marzoocho" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="Departamentos" type="462c0819:PsiDirectoryNode" />
+              <item name="Categorias" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="marzoocho" type="b2602c69:ProjectViewProjectNode" />
               <item name="marzoocho" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="inicio" type="462c0819:PsiDirectoryNode" />
+              <item name="Categorias" type="462c0819:PsiDirectoryNode" />
+              <item name="Gastronomia" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="marzoocho" type="b2602c69:ProjectViewProjectNode" />
+              <item name="marzoocho" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="Categorias" type="462c0819:PsiDirectoryNode" />
+              <item name="Teatros" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="marzoocho" type="b2602c69:ProjectViewProjectNode" />
+              <item name="marzoocho" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="Departamentos" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -297,7 +261,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Django server.salimossss">
+    <configuration name="pruebawebresto.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/marzoocho/templates/Categorias/Gastronomia/pruebawebresto.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="salimossss" type="Python.DjangoServer" factoryName="Django server">
       <module name="salimossss" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -322,6 +289,11 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.pruebawebresto.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -340,7 +312,7 @@
       <workItem from="1552066723158" duration="13629000" />
       <workItem from="1552084662126" duration="19426000" />
       <workItem from="1552338024270" duration="17878000" />
-      <workItem from="1552406531867" duration="12235000" />
+      <workItem from="1552406531867" duration="18783000" />
     </task>
     <task id="LOCAL-00001" summary="Se agego Montevideo para ver los eventos y lugares del departamento">
       <created>1552342763919</created>
@@ -398,29 +370,42 @@
       <option name="project" value="LOCAL" />
       <updated>1552425228799</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Se agrega en Montevideo - Eventos opción para ver el detalle">
+      <created>1552432689780</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1552432689780</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Se agrega en Montevideo - Rocha Eventos y Lugares opción para ver el detalle se crea acceso a web externa">
+      <created>1552433389274</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1552433389274</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78902000" />
+    <option name="totallyTimeSpent" value="85450000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2525707" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2525707" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" sideWeight="0.4993573" weight="0.32974428" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49807197" visible="true" weight="0.32839838" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49807197" visible="true" weight="0.32839838" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.4993573" weight="0.39973083" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32974428" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50192803" side_tool="true" weight="0.32839838" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.4989796" weight="0.95090014" />
@@ -430,7 +415,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32959184" />
       <window_info anchor="right" id="R Packages" order="4" weight="0.32959184" />
-      <window_info anchor="right" id="Database" order="5" weight="0.32959184" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32904884" />
       <window_info anchor="right" id="R Graphics" order="6" weight="0.32959184" />
     </layout>
   </component>
@@ -449,7 +434,8 @@
     <MESSAGE value="Se agrega rocha- Se deja misma pagina con botones nuevos en la vista" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;iniciosalimos/views.py" />
     <MESSAGE value="Se agrega en Montevideo - Eventos opción para ver el detalle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se agrega en Montevideo - Eventos opción para ver el detalle" />
+    <MESSAGE value="Se agrega en Montevideo - Rocha Eventos y Lugares opción para ver el detalle se crea acceso a web externa" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agrega en Montevideo - Rocha Eventos y Lugares opción para ver el detalle se crea acceso a web externa" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -492,16 +478,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iniciosalimos/static/css/estilo.css" />
-    <entry file="file://$PROJECT_DIR$/iniciosalimos/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/salimossss/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -509,13 +485,6 @@
     <entry file="file://$PROJECT_DIR$/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5143" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/salimossss/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/estilo.css">
@@ -606,13 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iniciosalimos/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="70" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iniciosalimos/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -649,20 +611,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Departamentos/Detalle_eventos.html">
+    <entry file="file://$PROJECT_DIR$/templates/Departamentos/Rocha_eventos.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="64" selection-end-column="7" />
-          <folding>
-            <element signature="n#src#0;n#img#0;n#td#1;n#tr#7;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Departamentos/Montevideo_eventos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="29" column="106" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="106" />
+        <state relative-caret-position="210">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -673,54 +625,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iniciosalimos/views.py">
+    <entry file="das://ebbf9df7-ba41-4120-ae4a-656243c486ac/schema/main/table/Eventos">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Categorias/Gastronomia/Gastronomia.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="175" column="47" selection-start-line="175" selection-start-column="47" selection-end-line="175" selection-end-column="47" />
+        <state relative-caret-position="-349" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Departamentos/Rocha_lugares.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/salimossss/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iniciosalimos/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4549">
+          <caret line="4" column="70" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iniciosalimos/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/Departamentos/Detalle_lugares.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="66" column="33" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
+        <state relative-caret-position="291">
+          <caret line="76" column="25" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
           <folding>
             <element signature="n#src#0;n#img#0;n#td#1;n#tr#7;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Departamentos/Montevideo_eventos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="30" column="45" lean-forward="true" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/salimossss/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="e#634#666#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Departamentos/Rocha_eventos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/Departamentos/Montevideo_lugares.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="29" column="100" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="100" />
+        <state relative-caret-position="275">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Departamentos/Rocha_lugares.html">
+    <entry file="file://$PROJECT_DIR$/iniciosalimos/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="28" column="100" selection-start-line="28" selection-start-column="100" selection-end-line="28" selection-end-column="100" />
+        <state relative-caret-position="-1990">
+          <caret line="39" column="47" lean-forward="true" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Categorias/Gastronomia/pruebawebresto.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="48" column="14" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="48" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Departamentos/Detalle_eventos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="82" column="54" selection-start-line="82" selection-start-column="54" selection-end-line="82" selection-end-column="54" />
         </state>
       </provider>
     </entry>
