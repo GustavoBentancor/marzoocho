@@ -18,7 +18,7 @@ def cine_list(request):
 def festi_list(request):
     db = sqlite3.connect(database='salimos.db')
     cursor = db.cursor()
-    cursor.execute("Select * from Eventos where IdCategoria=4")
+    cursor.execute("Select * from Eventos where IdCategoria in (11,4)")
     Festivales = cursor.fetchall()
     db.commit()
     return render_to_response('Festivales/Festivales.html', {'Festivales': Festivales})
@@ -26,7 +26,7 @@ def festi_list(request):
 def crio_list(request):
     db = sqlite3.connect(database='salimos.db')
     cursor = db.cursor()
-    cursor.execute("Select * from Eventos where IdCategoria=1")
+    cursor.execute("Select * from Eventos where IdCategoria in (1,4)")
     Criollas = cursor.fetchall()
     db.commit()
     return render_to_response('Criollas/Criollas.html', {'Criollas': Criollas})   
@@ -58,7 +58,7 @@ def toques_list(request):
 def boli_list(request):
     db = sqlite3.connect(database='salimos.db')
     cursor = db.cursor()
-    cursor.execute("Select * from Lugares where IdCategoria=8")
+    cursor.execute("Select * from Lugares where IdCategoria in (8,9)")
     Boliches = cursor.fetchall()
     db.commit()
     return render_to_response('Boliches/Boliches.html', {'Boliches': Boliches})
