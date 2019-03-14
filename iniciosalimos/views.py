@@ -14,7 +14,10 @@ def cine_list(request):
     Funciones = cursor.fetchall()
     db.commit()
     return render_to_response('Categorias/Cine/Cine.html', {'Funciones': Funciones})
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0b01617ab197923828067974c191de3bbb9ca763
 
 def festi_list(request):
     db = sqlite3.connect(database='salimos.db')
@@ -24,6 +27,7 @@ def festi_list(request):
     db.commit()
     return render_to_response('Categorias/Festivales/Festivales.html', {'Festivales': Festivales})
 
+<<<<<<< HEAD
 
 def detalle_festi_list(request):
     db = sqlite3.connect(database='salimos.db')
@@ -34,6 +38,16 @@ def detalle_festi_list(request):
     db.commit()
     return render_to_response('Categorias/Festivales/Detalle_Festivales.html', {'item': Detalle_Festivales[0]})
 
+=======
+def detalle_festi_list(request):
+    db = sqlite3.connect(database='salimos.db')
+    cursor = db.cursor()
+    id_Detalle_Festivales= request.GET.get('id_Festivales',0)
+    Detalle_Festivales= cursor.execute("Select * from Eventos where IdEvento="+id_Detalle_Festivales)
+    Detalle_Festivales =  cursor.fetchall()
+    db.commit()
+    return render_to_response('Categorias/Festivales/Detalle_Festivales.html', {'item': Detalle_Festivales[0]})
+>>>>>>> 0b01617ab197923828067974c191de3bbb9ca763
 
 def crio_list(request):
     db = sqlite3.connect(database='salimos.db')
@@ -41,8 +55,12 @@ def crio_list(request):
     cursor.execute("Select * from Eventos where IdCategoria in (1,4)")
     Criollas = cursor.fetchall()
     db.commit()
+<<<<<<< HEAD
     return render_to_response('Categorias/Criollas/Criollas.html', {'Criollas': Criollas})
 
+=======
+    return render_to_response('Categorias/Criollas/Criollas.html', {'Criollas': Criollas})   
+>>>>>>> 0b01617ab197923828067974c191de3bbb9ca763
 
 def gastro_list(request):
     db = sqlite3.connect(database='salimos.db')
@@ -52,6 +70,7 @@ def gastro_list(request):
     db.commit()
     return render_to_response('Categorias/Gastronomia/Gastronomia.html', {'Gastronomia': Gastronomia})
 
+<<<<<<< HEAD
 
 def detalle_gastro_list(request):
     db = sqlite3.connect(database='salimos.db')
@@ -62,6 +81,16 @@ def detalle_gastro_list(request):
     db.commit()
     return render_to_response('Categorias/Gastronomia/Detalle_Gastronomia.html', {'item': Detalle_Gastronomia[0]})
 
+=======
+def detalle_gastro_list(request):
+    db = sqlite3.connect(database='salimos.db')
+    cursor = db.cursor()
+    id_Detalle_Gastronomia= request.GET.get('id_Gastronomia',0)
+    Detalle_Gastronomia= cursor.execute("Select * from Lugares where IdLugar="+id_Detalle_Gastronomia)
+    Detalle_Gastronomia =  cursor.fetchall()
+    db.commit()
+    return render_to_response('Categorias/Gastronomia/Detalle_Gastronomia.html', {'item': Detalle_Gastronomia[0]})
+>>>>>>> 0b01617ab197923828067974c191de3bbb9ca763
 
 def teatro_list(request):
     db = sqlite3.connect(database='salimos.db')
@@ -70,7 +99,10 @@ def teatro_list(request):
     Teatros = cursor.fetchall()
     db.commit()
     return render_to_response('Categorias/Teatros/Teatros.html', {'Teatros': Teatros})
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0b01617ab197923828067974c191de3bbb9ca763
 
 def toques_list(request):
     db = sqlite3.connect(database='salimos.db')
@@ -79,7 +111,10 @@ def toques_list(request):
     Toques = cursor.fetchall()
     db.commit()
     return render_to_response('Categorias/Toques/Toques.html', {'Toques': Toques})
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0b01617ab197923828067974c191de3bbb9ca763
 
 def boli_list(request):
     db = sqlite3.connect(database='salimos.db')
@@ -88,7 +123,10 @@ def boli_list(request):
     Boliches = cursor.fetchall()
     db.commit()
     return render_to_response('Categorias/Boliches/Boliches.html', {'Boliches': Boliches})
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0b01617ab197923828067974c191de3bbb9ca763
 
 def artdep_list(request):
     db = sqlite3.connect(database='salimos.db')
@@ -97,8 +135,12 @@ def artdep_list(request):
     Artdep = cursor.fetchall()
     db.commit()
     return render_to_response('Categorias/Artdep/Artdep.html', {'Artdep': Artdep})
+<<<<<<< HEAD
 
 
+=======
+    
+>>>>>>> 0b01617ab197923828067974c191de3bbb9ca763
 def enfmilia_list(request):
     db = sqlite3.connect(database='salimos.db')
     cursor = db.cursor()
@@ -175,11 +217,17 @@ def montevideo_lugares_list(request):
     db.commit()
     return render_to_response('Departamentos/Montevideo_lugares.html', {'Montevideo': Montevideo})
 
+<<<<<<< HEAD
 
 def rocha_inicio_list(request):
     return render_to_response('Departamentos/Rocha_inicio.html')
 
 
+=======
+def rocha_inicio_list(request):
+    return render_to_response('Departamentos/Rocha_inicio.html')
+
+>>>>>>> 0b01617ab197923828067974c191de3bbb9ca763
 def rocha_eventos_list(request):
     db = sqlite3.connect(database='salimos.db')
     cursor = db.cursor()
@@ -187,7 +235,10 @@ def rocha_eventos_list(request):
     db.commit()
     return render_to_response('Departamentos/Rocha_eventos.html', {'Rocha': Rocha})
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0b01617ab197923828067974c191de3bbb9ca763
 def rocha_lugares_list(request):
     db = sqlite3.connect(database='salimos.db')
     cursor = db.cursor()
@@ -195,6 +246,7 @@ def rocha_lugares_list(request):
     db.commit()
     return render_to_response('Departamentos/Rocha_lugares.html', {'Rocha': Rocha})
 
+<<<<<<< HEAD
 
 def detalle_eventos_list(request):
     db = sqlite3.connect(database='salimos.db')
@@ -221,3 +273,20 @@ def Detalleenfamilia_list(request):
     detalle_enfamilia = cursor.execute("select * from Lugares where IdLugar=" + id_detalle_enfamilia)
     db.commit()
     return render_to_response('Mievento/Enfamilia/detalle_enfamilia.html', {'item': detalle_enfamilia.fetchone()})
+=======
+def detalle_eventos_list(request):
+    db = sqlite3.connect(database='salimos.db')
+    cursor = db.cursor()
+    id_detalle_evento= request.GET.get('id_evento',0)
+    Detalle_eventos = cursor.execute("select * from eventos where idevento="+id_detalle_evento)
+    db.commit()
+    return render_to_response('Departamentos/Detalle_eventos.html', {'item': Detalle_eventos.fetchone()})
+
+def detalle_lugares_list(request):
+    db = sqlite3.connect(database='salimos.db')
+    cursor = db.cursor()
+    id_detalle_lugar= request.GET.get('id_lugar',0)
+    Detalle_lugares = cursor.execute("select * from lugares where idlugar="+id_detalle_lugar)
+    db.commit()
+    return render_to_response('Departamentos/Detalle_lugares.html', {'item': Detalle_lugares.fetchone()})
+>>>>>>> 0b01617ab197923828067974c191de3bbb9ca763

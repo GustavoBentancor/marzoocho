@@ -9,7 +9,7 @@
                     </head>
                     <body>
                             <br/>
-                            <p><a href="/" >Inicio Salimos.com</a> </p>
+                            <p><a href="/" ><img src="static/css/botones/irainicio.png" width="7%" height=7% ></a> </p>
                         <div class="datagrid">
                             <table>
                                 <thead>
@@ -26,7 +26,7 @@
                                 <tbody>
                                         {% for Evento in Gastronomia %}
                                         <tr>
-                                            <td>{{ Evento.2 }} <a href="{% url 'Detalle_Gastronomia' %}?id_Evento={{ Evento.2 }}">Detalle</a></td>
+                                            <td>{{ Evento.2 }} <a href="{% url 'Detalle_Gastronomia' %}?id_Gastronomia={{ Evento.0 }}">Detalle</a></td>
                                             <td>{{ Evento.6 }}</td>
                                             <td>{{ Evento.7 }}</td>
                                             <td>{{ Evento.8 }}</td>
@@ -37,7 +37,7 @@
                                     {% endfor %}
                                 </tbody>
                             </table>
-                            <p><a href="/#marco2" >Volver</a> </p>
+                            <p><a href="/#marco2" ><img src="static/css/botones/volver.png" width="5%" height=4% ></a> </p>
                     </body>
     {% endblock %}
     </html>

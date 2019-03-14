@@ -1,0 +1,39 @@
+{% load static %}{% load staticfiles %}{% load i18n %}
+<html lang="ES">
+    {% block jk %}
+                    <head>
+                                <link rel="stylesheet" href ="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+                                <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+                                <link rel="stylesheet" href="{% static 'mievento/turismo/turismo.css' %}">
+                            <title>Toques</title>
+                    </head>
+                    <body>
+                            <br/>
+                            <p><a href="/" >Inicio Salimos.com</a> </p>
+                        <div class="datagrid">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Nombre</th>
+                                        <th>Detalle</th>
+                                        <th>Fecha </th>
+                                        <th>Ciudad</th>
+                                        <th>Direccion</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                        {% for Evento in Toques %}
+                                        <tr>
+                                            <td>{{ Evento.1 }}</td>
+                                            <td>{{ Evento.3 }}</td>
+                                            <td>{{ Evento.4 }}</td>
+                                            <td>{{ Evento.11}}</td>
+                                            <td>{{ Evento.14}}</td>
+                                        </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                            <p><a href="/#marco2" >Volver</a> </p>
+                    </body>
+    {% endblock %}
+    </html>

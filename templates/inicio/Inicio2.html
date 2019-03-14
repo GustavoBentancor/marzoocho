@@ -1,0 +1,113 @@
+{% load static %} {% load staticfiles %} {% load i18n %}
+<html lang="ES">
+<div id="fb-root"></div>
+<script async defer src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v3.2"></script>"<br><br>
+
+
+  <head>
+  <title>Salimos.com</title>
+  <link rel="stylesheet" type="text/css" href="estilo.css" />
+
+<!-- lo siguiente elimina la puntuación delante de los botones de la pagina. Romina-->
+
+<style>
+  ul, li {
+    list-style:none;
+  }
+</style>
+
+
+  <link rel="stylesheet" href ="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="{% static 'estilo.css' %}">
+  </head>
+  <body>
+
+         <div id= "superior">
+
+         <div> <br><br>
+
+
+        </div>
+        <h1><i>Salimos</i></h1><br><br>
+
+
+            <div id="columnaderecha"><br><br>
+
+              
+
+                <div style= "center" ><br><br>
+                <iframe width="380" height="280" src="https://www.youtube.com/embed/NUl_XVlIzkk?controls=0" frameborder="0" accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div><br><br><br>
+
+<!-- boton de compartir facebook-->
+
+            <div class="fb-like" data-href="https://www.facebook.com/Salimos-247878679479017/" data-layout="standard" data-
+                action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+            </div>
+
+
+            <div id="columna"><br><br>
+                <h2> Buscar por:</h2><br><br>
+                <ul>
+                </ul>
+                <div style="text-align-last: center">
+
+                    <li><a href="#marco4"><img src="static/css/botones/btn.png" width="60%" height="12%"</a></li><br><br>
+                                                    
+                     <li><a href="#marco1"><img src="static/css/botones/botonmieventoarreglado.png" width="60%" height="12%"</a></li><br><br>
+
+                    <li><a href="#marco2"><img src="static/css/botones/botoncategorias.png" width="60%" height="12%"</a></a></li><br><br>
+
+                     <li><a href="#marco3"><img src="static/css/botones/botondepartamentos.png" width="60%" height="12%"</a></a></li><br><br>
+              
+                                                    
+                    <p> Deja tu opinion </p>
+                    <textarea name="mensaje" placeholder="Comparte tu experiencia"></textarea>
+                    <p><input type="submit" value="Enviar mensaje"></p>
+                </div>
+            </div>
+
+
+
+            <div id="contenido">
+                <div id="marco4"><br><br>
+                  
+                  <iframe width="100%" height="100%" frameborder="0" src="paginadeinicio.html">
+                  </iframe>
+                </div>
+              <div id="marco1"><br><br>
+                
+                <iframe width="100%" height="100%" frameborder="0" src="mievento.html">
+                </iframe>
+              </div>
+              <div id="marco2"><br><br>
+                
+                <iframe width="100%" height="100%" frameborder="0" src="categoriasInicio.html">
+                </iframe>
+              </div>
+              <div id="marco3"><br><br>
+                
+                <iframe width="100%" height="100%" frameborder="0" src="departamentosInicio.html">
+                </iframe>
+              </div>
+              
+          
+          
+          
+            
+          
+          
+          
+          <div style="text-align-last: center">
+            <p> Deja tu opinion </p>
+              
+            <p><textarea name="mensaje" placeholder="Comparte tu experiencia"></textarea></p>
+          
+            <p><input type="submit" value="Enviar mensaje"></p>      
+          </div> 
+          
+          
+           
+          </body>
+          </html>

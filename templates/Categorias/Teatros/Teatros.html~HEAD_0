@@ -1,0 +1,45 @@
+{% load static %}{% load staticfiles %}{% load i18n %}
+<html lang="ES">
+    {% block jk %}
+                    <head>
+                            <link rel="stylesheet" href ="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+                            <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+                            <link rel="stylesheet" href="{% static 'mievento/turismo/turismo.css' %}">
+                            <title>Teatros</title>
+                    </head>
+                    <body>
+                            <br/>
+                            <p><a href="/" >Inicio Salimos.com</a> </p>
+                        <div class="datagrid">
+                            <table>
+                                    <thead>
+                                    <tr>
+                                        <th>Nombre</th>
+                                        <th>Ciudad</th>
+                                        <th>Barrio</th>
+                                        <th>Direccion</th>
+                                        <th>Horario</th>
+                                        <th>Telefono</th>
+                                        <th>Tarjetas</th>
+                                        
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                        {% for Lugar in Teatros %}
+                                        <tr>
+                                            <td>{{ Lugar.2 }}</td>
+                                            <td>{{ Lugar.4 }}</td>
+                                            <td>{{ Lugar.5 }}</td>
+                                            <td>{{ Lugar.6 }}</td>
+                                            <td>{{ Lugar.7 }}</td>
+                                            <td>{{ Lugar.8}}</td>
+                                            <td>{{ Lugar.9}}</td>
+                                            
+                                        </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                            <p><a href="/#marco2" >Volver</a> </p>
+                    </body>
+    {% endblock %}
+    </html>
