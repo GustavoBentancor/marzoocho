@@ -15,11 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-<<<<<<< HEAD
-from iniciosalimos.views import cine_list, festi_list, detalle_festi_list, crio_list, gastro_list, detalle_gastro_list, teatro_list, toques_list, boli_list, artdep_list, conamigos_list, enfmilia_list,ninos_list, paseos_list,turismo_list, airlib_list, montevideo_eventos_list, montevideo_inicio_list, montevideo_lugares_list, rocha_eventos_list, rocha_inicio_list, rocha_lugares_list, detalle_eventos_list, detalle_lugares_list, Detalleenfamilia_list
-=======
-from iniciosalimos.views import cine_list, festi_list, detalle_festi_list, crio_list, gastro_list, detalle_gastro_list, teatro_list, toques_list, boli_list, artdep_list, conamigos_list, enfmilia_list,ninos_list, paseos_list,turismo_list, airlib_list, montevideo_eventos_list, montevideo_inicio_list, montevideo_lugares_list, rocha_eventos_list, rocha_inicio_list, rocha_lugares_list, detalle_eventos_list, detalle_lugares_list
->>>>>>> 0b01617ab197923828067974c191de3bbb9ca763
+from iniciosalimos.views import cine_list, festi_list, detalle_festi_list, crio_list, gastro_list, detalle_gastro_list, teatro_list, toques_list, boli_list, artdep_list, conamigos_list, enfamilia_list,ninos_list, paseos_list,turismo_list, airlib_list, montevideo_eventos_list, montevideo_inicio_list, montevideo_lugares_list, rocha_eventos_list, rocha_inicio_list, rocha_lugares_list, detalle_eventos_list, detalle_lugares_list, Detalleenfamilia_list
 from iniciosalimos.views import inicio
 
 urlpatterns = [
@@ -33,7 +29,7 @@ urlpatterns = [
     path('Toques', toques_list, name='Toquesllama'),
     path('Boliches',boli_list, name='Bolillama'),
     path('Artdep',artdep_list, name='Artdepllama'),
-    path('EnFamilia', enfmilia_list, name='familia'),
+    path('EnFamilia', enfamilia_list, name='familia'),
     path('Conamigos', conamigos_list, name='amigos'),
     path('ninos', ninos_list, name='ninos'),
     path('paseos', paseos_list, name='paseo'),
@@ -49,9 +45,5 @@ urlpatterns = [
     path('Detalle_lugares', detalle_lugares_list, name='detalle_lugares'),
     path('Detalle_Gastronomia', detalle_gastro_list, name='Detalle_Gastronomia'),
     path('Detalle_Festivales', detalle_festi_list, name='Detalle_Festivales'),
-<<<<<<< HEAD
     path('Detalle_Enfamilia', Detalleenfamilia_list, name='Detalle_enfamilia'),
-=======
-
->>>>>>> 0b01617ab197923828067974c191de3bbb9ca763
 ]
