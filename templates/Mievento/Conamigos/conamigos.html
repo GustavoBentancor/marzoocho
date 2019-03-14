@@ -3,40 +3,37 @@
 		    <head>
                 <link rel="stylesheet" href ="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
                 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-                <link rel="stylesheet" href="{% static 'mievento/conamigos/conamigos.css' %}">
+                <link rel="stylesheet" href="{% static 'mievento/conamigos/conamigoss.css' %}">
 			    <title>Con amigos</title>
 		    </head>
     <body>
-		    <div class="datagrid">
-          <table>
-            <thead>
-              <tr>
-                <th>Nombre</th>
-                <th>Ciudad</th>
-                <th>Detalle</th>
-                <th>Fecha</th>
-                <th>Contacto</th>
-              </tr>
-            </thead>
-          <tbody>
-          {% for Eventos in Eventos %}
-            <tr>
-              <td>{{ Eventos.0 }}</td>
-              <td>{{ Eventos.1 }}</td>
-              <td>{{ Eventos.2 }}</td>
-              <td>{{ Eventos.3 }}</td>
-              <td>{{ Eventos.4 }}</td>
-            </tr>
-          {% endfor %}
-            <tr class="alt">
-              <td>data</td>
-              <td>data</td>
-              <td>data</td>
-              <td>data</td>
-            </tr>
+                                <p><a href="/" ><img src="static/css/botones/irainicio.png" width="7%" height=7% ></a> </p>
+        <div class="datagrid">
+			<table>
+				<thead>
 
-        </tbody>
-      </table>
-    </div>
+					<tr>
+						<th>Nombre</th>
+                        <th>Ciudad</th>
+                        <th>Detalle</th>
+                        <th>Fecha</th>
+                        <th>Contacto</th>
+					</tr>
+				</thead>
+				<tbody>
+                        {% for Eventos in Eventos %}
+                        <tr>
+                          <td>{{ Eventos.0 }}</td>
+                          <td>{{ Eventos.1 }}</td>
+                          <td>{{ Eventos.2 }}</td>
+                          <td>{{ Eventos.3 }}</td>
+                          <td>{{ Eventos.4 }}</td>
+                        </tr>
+                    {% endfor %}
+				</tbody>
+			</table>
+		</div>
+
+        <p><a href="/#marco1" ><img src="static/css/botones/volver.png" width="5%" height=4% ></a></p>
   </body>
 </html>

@@ -15,10 +15,9 @@
     <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="myValues">
         <value>
-          <list size="3">
+          <list size="2">
             <item index="0" class="java.lang.String" itemvalue="accelerometer;" />
             <item index="1" class="java.lang.String" itemvalue="autoplay;" />
-            <item index="2" class="java.lang.String" itemvalue="60%height" />
           </list>
         </value>
       </option>

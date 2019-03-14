@@ -1,0 +1,52 @@
+{% load static %}{% load staticfiles %}{% load i18n %}
+<html>
+	<head>
+		<title>Maquetacion con CSS y Divs</title>
+		<link rel="stylesheet" href="static/css/maquetacion.css" type="text/css"/>
+	</head>
+	<body>
+        
+		<div id ="contenedor">
+          <div style="text-align-last: center">
+          <h2>{{ item.1 }}</h2><br><br>
+          </div>
+        </div><br>  
+            
+	    <div id ="menu">
+              <div style="text-align-last: center">
+              <h2><a href={{item.13 }} target="blank">{{ item.13 }}</a></h2>
+              </div>
+        </div>
+      
+      
+        <div id ="submenu">
+           .  <div style="text-align-last: center">
+              <h2>Direccion:{{ item.14 }}   Ciudad: {{item.11}}</h2>
+              </div>
+        </div>   
+            
+		<div id ="izquierda">
+              <div style="text-align-last: center">
+              <h2></h2>
+              </div>
+        </div>  
+              
+              
+		<div id ="derecha">
+              <div style="text-align-last: center">
+              <h2></h2>
+              </div>
+        </div>
+      
+        <div id ="pie">
+              <div style="text-align-last: center">
+              <h2>Fecha Inicio:{{ item.4 }} hasta: {{ item.5 }}  Detalle actividades: {{item.3}}</h2><br>
+              </div>
+        </div>
+        
+        <p><a href="/#marco2" >Volver</a> </p>     
+        </div>  
+              
+		</div>
+	</body>
+</html>

@@ -1,0 +1,43 @@
+{% load static %}{% load staticfiles %}{% load i18n %}
+<html lang="Es">
+			<head>
+                     <link rel="stylesheet" href ="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+                     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+                     <link rel="stylesheet" href="{% static 'mievento/turismo/turismo.css' %}">
+				<title>Rocha</title>
+			</head>
+	<body>
+	<br/>
+            <p><a href="/" >Inicio Salimos.com</a> </p>
+    <div class="datagrid">
+			<table>
+				<thead>
+
+					<tr>
+						<th>Nombre</th>
+						<th>Dirección</th>
+                        <th>Barrio</th>
+                        <th>Ciudad</th>
+                        <th>Horario</th>
+                        <th>Telefono</th>
+
+					</tr>
+				</thead>
+				<tbody>
+                {% for item in Rocha %}
+					<tr>
+						<td>{{item.2 }} <a href="/Detalle_lugares?id_lugar={{ item.0 }}">Detalle</a></td>
+						<td>{{item.6  }}</td>
+                        <td>{{item.5 }}</td>
+                        <td>{{item.4 }}</td>
+                        <td>{{item.7 }}</td>
+                        <td>{{item.8 }}</td>
+                    </tr>
+                {% endfor %}
+				</tbody>
+			</table>
+		</div>
+<br/>
+            <p><a href="/" >Inicio Salimos.com</a> </p>
+	</body>
+</html>
