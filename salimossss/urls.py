@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from iniciosalimos.views import cine_list, festi_list, crio_list, gastro_list, teatro_list, toques_list, boli_list, artdep_list, conamigos_list, enfmilia_list,ninos_list, paseos_list,turismo_list, airlib_list, montevideo_eventos_list, montevideo_inicio_list, montevideo_lugares_list, rocha_eventos_list, rocha_inicio_list, rocha_lugares_list, detalle_eventos_list, detalle_lugares_list
+from iniciosalimos.views import cine_list, festi_list, detalle_festi_list, crio_list, gastro_list, detalle_gastro_list, teatro_list, toques_list, boli_list, artdep_list, conamigos_list, enfmilia_list,ninos_list, paseos_list,turismo_list, airlib_list, montevideo_eventos_list, montevideo_inicio_list, montevideo_lugares_list, rocha_eventos_list, rocha_inicio_list, rocha_lugares_list, detalle_eventos_list, detalle_lugares_list
 from iniciosalimos.views import inicio
 
 urlpatterns = [
@@ -42,6 +42,8 @@ urlpatterns = [
     path('Rocha_eventos', rocha_eventos_list, name='rocha_eventos'),
     path('Rocha_lugares', rocha_lugares_list, name='rocha_lugares'),
     path('Detalle_eventos', detalle_eventos_list, name='detalle_eventos'),
-    path('Detalle_lugares', detalle_lugares_list, name='detalle_lugares')
+    path('Detalle_lugares', detalle_lugares_list, name='detalle_lugares'),
+    path('Detalle_Gastronomia', detalle_gastro_list, name='Detalle_Gastronomia'),
+    path('Detalle_Festivales', detalle_festi_list, name='Detalle_Festivales'),
 
 ]

@@ -26,7 +26,7 @@
                                 <tbody>
                                         {% for Evento in Gastronomia %}
                                         <tr>
-                                            <td>{{ Evento.2 }}</td>
+                                            <td>{{ Evento.2 }} <a href="{% url 'Detalle_Gastronomia' %}?id_Gastronomia={{ Evento.0 }}">Detalle</a></td>
                                             <td>{{ Evento.6 }}</td>
                                             <td>{{ Evento.7 }}</td>
                                             <td>{{ Evento.8 }}</td>

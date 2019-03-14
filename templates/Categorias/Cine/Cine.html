@@ -1,16 +1,21 @@
-
+{% load static %}{% load staticfiles %}{% load i18n %}
 <html lang="ES">
 {% block jk %}
                 <head>
+                        <link rel="stylesheet" href ="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+                        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+                        <link rel="stylesheet" href="{% static 'mievento/turismo/turismo.css' %}">
 	                    <title>Funciones</title>
                 </head>
                 <body>
-                        <table class="steelBlueCols">
-			                <thead>
+                        <br/>
+                            <p><a href="/" >Inicio Salimos.com</a> </p>
+                        <div class="datagrid">
+                            <table>
+                                    <thead>
 				                <tr>
 					                <th>Funcion</th>
                                     <th>Fecha</th>
-					                <th>Lugar</th>
 					                <th>Horario</th>
 				                </tr>
 			                </thead>
@@ -19,7 +24,6 @@
                                     <tr>
                                         <td>{{ Funcion.2 }}</td>
                                         <td>{{ Funcion.3 }}</td>
-                                        <td></td>
                                         <td>{{ Funcion.4 }}</td>
                                     </tr>
                                 {% endfor %}
